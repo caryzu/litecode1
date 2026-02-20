@@ -1,3 +1,11 @@
+# LiteCode - lightweight IDE
+# Copyright (C) 2026 Noah
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published
+# by the Free Software Foundation, either version 3 of the License,
+# or (at your option) any later version.
+
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox, simpledialog
 import re
@@ -707,3 +715,4 @@ if __name__ == "__main__":
     app.text.bind("<<Modified>>", lambda e: app.set_modified(True))
     app.text.bind("<KeyRelease>", app.on_key_release)
     app.mainloop()
+
