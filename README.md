@@ -5,3 +5,5 @@ WARNING: file "litecode-older-python-beta.py" This is only the GNU/Linux version
 
 # What is the difference between litecode-linux.c and litecode-windows.c?
 I had to make two files because the GNU/Linux console uses /bin/sh and Windows uses cmd.exe, but this will be resolved in the future.
+
+# PROJECT MOVED TO https://gitlab.com/litezilla-company-git/lite-code (testing branch https://gitlab.com/litezilla-company-git/lite-code/-/tree/testing)
